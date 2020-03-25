@@ -6,3 +6,20 @@
     top: auto;
     overflow: hidden;
 }
+
+body {
+    margin-top: 50px;
+}
+
+.nav {
+    display: inline;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    padding: 8px 5px;
+}

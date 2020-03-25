@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessibility Play</title>
+    <link rel="stylesheet" href="accessibility.css">
 </head>
 <body>
     <nav>
-        <header>
-            <h1>Test Header 1</h1>
+        <header class="nav">
+            <h1 class="nav"><a href="#">Test Header 1</a></h1>
         </header>
-        <ul>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+        <ul class="nav">
+            <li class="nav"><a href="#">Link 1</a></li>
+            <li class="nav"><a href="#">Link 2</a></li>
+            <li class="nav"><a href="#">Link 3</a></li>
         </ul>
     </nav>
     <main>
@@ -49,9 +50,9 @@
                 </figure>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum odio quis excepturi tenetur earum perspiciatis repudiandae impedit doloribus <a href="#">amet veniam!</a></p>
         </article>
-        <form action="path" accesskey="f">
+        <form action="#" accesskey="f">
             <fieldset>
-                <legend>Choose on of the three choices</legend>
+                <legend>Choose one of the three choices</legend>
                 <input type="radio" id="first" name="choices">
                 <label for="first">First choice</label>
                 <input type="radio" id="second" name="choices">
@@ -61,6 +62,7 @@
             </fieldset>
             <label for="date1">Enter a date:</label>
             <input type="date" id="date1" name="date1">
+            <input type="submit">
         </form>
         <p class="sr-only">Secret Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus obcaecati, accusantium dolore aperiam consectetur ducimus error dolores. Aut ipsa placeat autem eos nam! Animi accusamus nam voluptas hic sequi?</p>
     </main>
