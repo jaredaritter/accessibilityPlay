@@ -13,3 +13,7 @@
     * High contrast present. Skipped further styling and CSS for time but understand importance.
 
 * Will benefit from returning to this to update styling and verify proper application. Will look for assistive technology or tools for assessment in further learning.
+
+## Follow up adding media queries and responsive elements
+
+* Quick follow up on responsive web principles section with application in prior mini project
