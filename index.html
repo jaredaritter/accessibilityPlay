@@ -6,12 +6,66 @@
     <title>Accessibility Play</title>
 </head>
 <body>
-    <header>
-        <h1>Test Header 1</h1>
-    </header>
+    <nav>
+        <header>
+            <h1>Test Header 1</h1>
+        </header>
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+        </ul>
+    </nav>
     <main>
+        <section>
+            <h2>Section header</h2>
+            <img src="" alt="descriptive alt text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perspiciatis soluta exercitationem delectus architecto nesciunt, hic natus laudantium aliquid facere ad minima fugiat! Tempora fugiat iste dignissimos nisi nobis ipsa.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quam perferendis sint alias laborum expedita provident asperiores dignissimos. Fuga at facere explicabo nostrum non est debitis hic corporis mollitia error.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil natus maxime odio commodi quas harum neque dolores, atque, mollitia, numquam quia expedita illum incidunt voluptatum ipsam quo! Numquam, quam.</p>
         <h2>Section header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perspiciatis soluta exercitationem delectus architecto nesciunt, hic natus laudantium aliquid facere ad minima fugiat! Tempora fugiat iste dignissimos nisi nobis ipsa.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quam perferendis sint alias laborum expedita provident asperiores dignissimos. Fuga at facere explicabo nostrum non est debitis hic corporis mollitia error.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil natus maxime odio commodi quas harum neque dolores, atque, mollitia, numquam quia expedita illum incidunt voluptatum ipsam quo! Numquam, quam.</p>
+            <audio id="funSound" controls>
+                <source src="audio/file"mp3 type="audio/mpeg">
+            </audio>
         <h2>Section header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam perspiciatis soluta exercitationem delectus architecto nesciunt, hic natus laudantium aliquid facere ad minima fugiat! Tempora fugiat iste dignissimos nisi nobis ipsa.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quam perferendis sint alias laborum expedita provident asperiores dignissimos. Fuga at facere explicabo nostrum non est debitis hic corporis mollitia error.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil natus maxime odio commodi quas harum neque dolores, atque, mollitia, numquam quia expedita illum incidunt voluptatum ipsam quo! Numquam, quam.</p>
+        </section>
+        <article>
+            <h2>Article title</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum odio quis excepturi tenetur earum perspiciatis repudiandae impedit doloribus <a href="#">amet veniam!</a></p>
+        </article>
+        <article>
+            <h2>Article title released <time datetime="2020-3-25">last Friday</time></h2>
+                <figure>
+                    <img src="charts/fancyLatin" alt="mixed messages about proper use of alt text with figcaptions. Must be filled in if img performs action or if image conveys specific information ie: new mail icon">
+                    <figcaption>
+                        Description of context of the picture and relevant explanation of results if graph or chart.
+                    </figcaption>
+                </figure>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum odio quis excepturi tenetur earum perspiciatis repudiandae impedit doloribus <a href="#">amet veniam!</a></p>
+        </article>
+        <form action="path" accesskey="f">
+            <fieldset>
+                <legend>Choose on of the three choices</legend>
+                <input type="radio" id="first" name="choices">
+                <label for="first">First choice</label>
+                <input type="radio" id="second" name="choices">
+                <label for="second">Second choice</label>
+                <input type="radio" id="third" name="choices">
+                <label for="third">Third choice</label>
+            </fieldset>
+            <label for="date1">Enter a date:</label>
+            <input type="date" id="date1" name="date1">
+        </form>
+        <p class="sr-only">Secret Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus obcaecati, accusantium dolore aperiam consectetur ducimus error dolores. Aut ipsa placeat autem eos nam! Animi accusamus nam voluptas hic sequi?</p>
     </main>
+    <footer>
+        <p>copyright info and links to relevant content</p>
+    </footer>
 </body>
 </html>
